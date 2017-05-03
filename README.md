@@ -6,7 +6,7 @@ This code takes a csv file and plots results in two separated pdf files.
 
 The csv can be found [[here]](http://info.iut-bm.univ-fcomte.fr/staff/mazouzi/docs/ganglia-metrics.csv)
 
-## Create image container localy
+## Create a container localy
 Run `build-local` to create and bootstrap a container (This action needs root access).
 
 ```bash
@@ -16,7 +16,7 @@ $ sudo singularity bootstrap mycontainer.img Singularity
 
 
 
-## Run python code inside container 
+## Run python code inside the container 
 
 Run `run-local.sh` to execute python code inside the contanier. 
 
@@ -29,7 +29,9 @@ $ ./mycontainer data_analaysis
 
 ## Pull image container from singularity-hub 
 
-If you don't root access, singularity-hub can create images by providing a specification file. See the [[documentation]](https://singularity-hub.org/faq) for more details . The image correspending to the `Singularity` file can be pulled from https://singularity-hub.org/containers/842/.
+If you don't root access, singularity-hub can create images by providing a specification file. See the [[documentation]](https://singularity-hub.org/faq) for more details . 
+
+The image correspending to the `Singularity` file can be pulled from https://singularity-hub.org/containers/842/.
 
 Pull image:
 ```bash
