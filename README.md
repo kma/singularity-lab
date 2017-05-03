@@ -2,7 +2,7 @@
 
 Create a reproducible container image to run a simple python program (`data_alaysys.py`).
 
-This code take a csv file and plot results in two separated pdf files.
+This code takes a csv file and plots results in two separated pdf files.
 
 The csv can be found [[here]](http://info.iut-bm.univ-fcomte.fr/staff/mazouzi/docs/ganglia-metrics.csv)
 
