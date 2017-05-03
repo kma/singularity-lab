@@ -29,6 +29,6 @@ $ ./mycontainer data_analaysis
 
 
 
-## Pull image contanier from singularity-hub 
+## Pull image container from singularity-hub 
 If you don't root access, singularity-hub can create images by providing a specification file. See the [[documentation]](https://singularity-hub.org/faq) for more details . The image correspending to the `Singularity` file can be download (pulled) from http://singularity-hub.org server.
 
