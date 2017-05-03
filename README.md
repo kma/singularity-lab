@@ -1,4 +1,4 @@
-# Singularity-lab
+# Singularity use case
 
 Create a reproducible container image to run a simple python program (`data_alaysys.py`).
 
