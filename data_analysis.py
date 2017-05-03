@@ -7,7 +7,8 @@ matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt
 
- 
+ # download data file (ganglia-metrics.csv) from:  http://info.iut-bm.univ-fcomte.fr/staff/mazouzi/docs/ganglia-metrics.csv
+ # wget    http://info.iut-bm.univ-fcomte.fr/staff/mazouzi/docs/ganglia-metrics.csv
      
 print 'reading data...'
 df = pd.read_csv("ganglia-metrics.csv", index_col=0, parse_dates=['Timestamp'])
