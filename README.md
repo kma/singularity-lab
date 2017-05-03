@@ -33,8 +33,9 @@ If you don't root access, singularity-hub can create images by providing a speci
 
 Pull image:
 ```bash
-singularity pull shub://842
-singularity pull shub://kma/singularity-lab:master 
+$ singularity pull shub://842
+Or
+$ singularity pull shub://kma/singularity-lab:master 
 ```
 
 Run python code using:
