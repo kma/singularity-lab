@@ -5,7 +5,7 @@ From: ubuntu:xenial
     # commands to be executed on host outside container during bootstrap
     
 %post
-    # commands to be executed inside container during bootstrap
+   # commands to be executed inside container during bootstrap
    
    # add universe repo and install some packages
     sed -i '/xenial.*universe/s/^#//g' /etc/apt/sources.list
