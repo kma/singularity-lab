@@ -24,7 +24,7 @@ Run `run-local.sh` to execute python code inside the container.
 ```bash
 $ wget http://info.iut-bm.univ-fcomte.fr/staff/mazouzi/docs/ganglia-metrics.csv
 
-$ ./mycontainer data_analysis
+$ ./mycontainer.img data_analysis
 
 ```
 
